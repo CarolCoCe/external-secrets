@@ -1,4 +1,4 @@
-# Prerequirements
+# Prerequisites
 To collaborate on the External Secrets Operator (ESO) project, you need to install some tools on your computer. This guide explains what each tool is, why it is needed, the recommended version, and how to install it on the corresponding operating system.
 ### Supported Operating Systems
 To collaborate on the External Secrets Operator (ESO) project, it is recommended to use Unix-based operating systems, such as Linux and macOS. ESO's development environment is primarily designed for these systems, and many of the tools and scripts used during development are built to work on them.
@@ -154,7 +154,7 @@ It is possible to use Windows for development, but there are important considera
 
 ---
 
-### Install jq
+## Install jq
 
 <details>
   <summary>About jq</summary>
@@ -191,6 +191,23 @@ It is possible to use Windows for development, but there are important considera
   </details>
 
   <p>For other installation options and more details, visit the <a href="https://stedolan.github.io/jq/">official jq website</a>.</p>
+</details>
+
+## Kubernetes
+
+<details>
+  <summary>About Kubernetes</summary>
+  <h3>What is Kubernetes?</h3>
+  <p>Kubernetes is an open-source platform for automating the deployment, scaling, and management of containerized applications. It orchestrates containerized workloads across a cluster of machines, ensuring high availability and efficient resource utilization.</p>
+  
+  <h3>Why is Kubernetes needed?</h3>
+  <p>In the <strong>External Secrets Operator</strong> project, Kubernetes provides the infrastructure to deploy and manage containerized applications. It allows integration with cloud-native services, enabling scalability, fault tolerance, and streamlined operations in dynamic environments.</p>
+
+  <p>
+  To work with Kubernetes, we need to install and configure some tools first. This will be explained in the sections below.
+  
+  For more details, check the [official documentation](https://kubernetes.io/docs/home/).
+</p>
 </details>
 
 ---
